@@ -1,0 +1,265 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Luis\Desktop\CPU Quartus + SimonSays(Sin Espera)\CPU Quartus\simulation\modelsim
+valu
+IV91b67FVM9B2nezz8mn9C2
+VenXLGAfUjSC^PoHBVA9DZ2
+Z1 dC:\Users\Luis\Desktop\CPU Quartus + SimonSays(Sin Espera)\CPU Quartus\simulation\modelsim
+w1400152020
+8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/alu.v
+FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/alu.v
+L0 1
+Z2 OV;L;10.1b;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus} -O0
+!i10b 1
+!s100 YSeeXlQjQ[ba>h1IK:lL21
+!s85 0
+!s108 1400676344.654000
+!s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/alu.v|
+!s101 -O0
+vclonador
+IYkKBMAoAWNP3dme_6_SB12
+VTINJ3oZn]kcM4>e`Wa^a70
+R1
+Z5 w1400265316
+Z6 8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/cpu.v
+Z7 FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/cpu.v
+L0 20
+R2
+r1
+31
+Z8 !s108 1400676341.612000
+Z9 !s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/cpu.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/cpu.v|
+R3
+R4
+!i10b 1
+!s100 O`?R^H;NmXMbJ7PKLemBf2
+!s85 0
+!s101 -O0
+vcpu
+IzAj<]^0[>a5?XR@djkk:d1
+VmgU2@SiEd67b;e];^TXTR3
+R1
+R5
+R6
+R7
+L0 34
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 >eBhKn5Xg>Q<cD6@om75B0
+!s85 0
+!s101 -O0
+vdecoder
+I6:NNjVKOdl^DC:4mnOEa`2
+V`PD>?Q[=LW1TfVUGJJBT`1
+R1
+Z11 w1398188976
+Z12 8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/componentes.v
+Z13 FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/componentes.v
+L0 71
+R2
+r1
+31
+Z14 !s108 1400676341.846000
+Z15 !s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/componentes.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/componentes.v|
+R3
+R4
+!i10b 1
+!s100 n88j@nn>8KEGRQD6[jEXF2
+!s85 0
+!s101 -O0
+vmemprog
+!i10b 1
+!s100 L^iJg3f:jfoXAaZm<_d0`3
+I:zgi?GPTZ_B>;d6N<A:VO3
+VU^4PS^ILhXJSDi0J3ezGm1
+R1
+Z17 w1398188978
+8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/memprog.v
+FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/memprog.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1400676344.841000
+!s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/memprog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/memprog.v|
+!s101 -O0
+R3
+R4
+vmicroc
+IX36>9[A[L1Tl<RELLEXK:2
+VIKXJ48EbJO>Tz:TR_Uh9d2
+R1
+R17
+8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/microc.v
+FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/microc.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 I3cgD`l0cnWHb=^;^X^[[1
+!s85 0
+!s108 1400676341.456000
+!s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/microc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/microc.v|
+!s101 -O0
+vmux2
+Ig]oGJOI7DaIdKbYORjIVo1
+VT8RWJBjAIeM]>7U=5kBkT1
+R1
+R11
+R12
+R13
+L0 62
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 9Qj?^fQ]E=Rf^HYQbJ6@_3
+!s85 0
+!s101 -O0
+vmux4
+IXzi74`WEP7Po?CnT<XNnz0
+V@m74j;^3XFJ7>OzQXh6V`0
+R1
+R11
+R12
+R13
+L0 145
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 a:ocYCDUEaeLlOmfhAY^e1
+!s85 0
+!s101 -O0
+vread_reg
+IMfaWI_JL6a[j45F^Wl`:n0
+VKmL04;jb0mgjXg@d105E<3
+R1
+R11
+R12
+R13
+L0 125
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 ;HCNeYk[92n3j:kPa9hVo2
+!s85 0
+!s101 -O0
+vregfile
+IijF?a1Y4PT_f5JOhE6U=U3
+VI5z8<lJcjz;XN9<;Nm>UO3
+R1
+R11
+R12
+R13
+L0 8
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 Qj9^07204`:LaAd787zC70
+!s85 0
+!s101 -O0
+vregistro
+IYQ3]Jj[;fl6dj8Hh2RVC^0
+VJ[_h7<:bK^i^`WUS`Li1<1
+R1
+R11
+R12
+R13
+L0 47
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 m?g9O45Mhh?FBi`h;zUIN3
+!s85 0
+!s101 -O0
+vsum
+IZaS>4_DOifZf`gOYgIdbd3
+VA7?gbGQM2IRzcJYa:4lZf2
+R1
+R11
+R12
+R13
+L0 35
+R2
+r1
+31
+R14
+R15
+R16
+R3
+R4
+!i10b 1
+!s100 6j9am09M66^Q4O6E7fUD=3
+!s85 0
+!s101 -O0
+vuc
+Il?h^P8@9>DaEh2HC^ZaOW1
+VI04b2I6lAMWDd8USfW68I0
+R1
+w1400672846
+8C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/uc.v
+FC:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/uc.v
+L0 4
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 _9mhDO5Yz9g3V<RlCD9j53
+!s85 0
+!s108 1400676341.269000
+!s107 C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/uc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus|C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/uc.v|
+!s101 -O0

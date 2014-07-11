@@ -1,0 +1,246 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do CPU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/uc.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module uc
+# 
+# Top level modules:
+# 	uc
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/microc.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module microc
+# 
+# Top level modules:
+# 	microc
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module clonador
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/componentes.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module regfile
+# -- Compiling module sum
+# -- Compiling module registro
+# -- Compiling module mux2
+# -- Compiling module decoder
+# -- Compiling module read_reg
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	regfile
+# 	sum
+# 	registro
+# 	mux2
+# 	decoder
+# 	read_reg
+# 	mux4
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/Luis/Desktop/CPU\ Quartus\ +\ SimonSays(Sin\ Espera)/CPU\ Quartus {C:/Users/Luis/Desktop/CPU Quartus + SimonSays(Sin Espera)/CPU Quartus/memprog.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module memprog
+# 
+# Top level modules:
+# 	memprog
+# 
+vsim work.cpu
+# vsim work.cpu 
+# Loading work.cpu
+# Loading work.clonador
+# Loading work.microc
+# Loading work.mux2
+# Loading work.sum
+# Loading work.registro
+# Loading work.memprog
+# Loading work.regfile
+# Loading work.alu
+# Loading work.decoder
+# Loading work.read_reg
+# Loading work.mux4
+# Loading work.uc
+add wave -position end  sim:/cpu/clk
+add wave -position end  sim:/cpu/reset
+add wave -position end  sim:/cpu/ent1
+add wave -position end  sim:/cpu/ent2
+add wave -position end  sim:/cpu/ent3
+add wave -position end  sim:/cpu/ent4
+add wave -position end  sim:/cpu/sal1
+add wave -position end  sim:/cpu/sal2
+add wave -position end  sim:/cpu/sal3
+add wave -position end  sim:/cpu/sal4
+add wave -position end  sim:/cpu/pco
+add wave -position end  sim:/cpu/s_inc
+add wave -position end  sim:/cpu/s_inm
+add wave -position end  sim:/cpu/we3
+add wave -position end  sim:/cpu/z
+add wave -position end  sim:/cpu/s_out
+add wave -position end  sim:/cpu/s_in
+add wave -position end  sim:/cpu/s_inst
+add wave -position end  sim:/cpu/s_rel
+add wave -position end  sim:/cpu/op
+add wave -position end  sim:/cpu/opcode
+add wave -position end  sim:/cpu/inv_reset
+add wave -position end  sim:/cpu/retarded_clk
+add wave -position end  sim:/cpu/ent2_clon
+add wave -position end  sim:/cpu/ent3_clon
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: unknown  Hostname: b02  ProcessID: 4890
+# 
+#           Attempting to use alternate WLF file "./wlftmrhv2a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftmrhv2a
+# 
+add wave -position 12  sim:/cpu/microc0/alu0/a
+add wave -position 13  sim:/cpu/microc0/alu0/b
+add wave -position 14  sim:/cpu/microc0/alu0/op
+add wave -position 15  sim:/cpu/microc0/alu0/y
+add wave -position 16  sim:/cpu/microc0/alu0/zero
+add wave -position 17  sim:/cpu/microc0/alu0/s
+add wave -position 18  sim:/cpu/microc0/alu0/ze
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/cpu/reset 0 10 -cancel 10
+force -freeze sim:/cpu/ent1 10101010 0
+force -freeze sim:/cpu/ent2 11111111 0
+force -freeze sim:/cpu/ent3 11111111 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/ent1 00000000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/ent2 00000000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/ent2 11111111 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/ent1 00010010 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cpu/ent3 00000000 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

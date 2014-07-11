@@ -1,0 +1,14 @@
+`include "microc.v"
+`include "uc.v"
+
+module cpu(input wire clk, reset, input wire [7:0] ent1, ent2, ent3, ent4, output wire [7:0] sal1, sal2, sal3, sal4);
+
+wire s_inc, s_inm, we3, z, s_out, s_in, s_inst, s_rel;
+wire [2:0] op;
+wire [5:0] opcode;
+
+
+microc microc0(clk, reset, s_inc, s_inm, we3, s_out, s_in, s_inst, s_rel, op, ent1, ent2, ent3, ent4, z, opcode, sal1, sal2, sal3, sal4);
+uc uc0(clk, reset, z, opcode, s_inc, s_inm, we3, s_out, s_in, s_inst, s_rel, op);
+
+endmodule

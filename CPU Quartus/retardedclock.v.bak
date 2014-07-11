@@ -1,0 +1,12 @@
+module retarded_clock(input wire clk, output reg ret_clk);
+
+reg [3:0] cont;
+cont = 4'b0000;
+
+always @(clk)
+begin
+	cont = cont+4'b0001
+	assign ret_clk = cont[3];
+end
+
+endmodule

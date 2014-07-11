@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at microc.v(13): object "RD1" differs only in case from object "rd1" in the same scope
+Info (10281): Verilog HDL Declaration information at microc.v(14): object "RD2" differs only in case from object "rd2" in the same scope
+Warning (10273): Verilog HDL warning at alu.v(16): extended using "x" or "z"

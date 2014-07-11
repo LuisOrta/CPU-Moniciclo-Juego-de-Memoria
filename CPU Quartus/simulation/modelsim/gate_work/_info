@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Luis\Desktop\CPU Quartus + SimonSays\CPU Quartus\simulation\modelsim
+vcpu
+!i10b 1
+!s100 PkR^8]eJcioBgVMV@6BN61
+IVn>UGdKNl>0SioLInh:nd0
+VmgU2@SiEd67b;e];^TXTR3
+Z1 dC:\Users\Luis\Desktop\CPU Quartus + SimonSays\CPU Quartus\simulation\modelsim
+w1399472632
+8CPU.vo
+FCPU.vo
+L0 31
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1399566988.621000
+!s107 CPU.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|CPU.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0
